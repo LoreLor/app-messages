@@ -22,28 +22,30 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# CRUD en Nest.js con TypeScript y MySQL
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Características Principales
 
-## Installation
+- Operaciones CRUD completas: Crear, leer, actualizar y eliminar registros.
+- Desarrollado en Nest.js para una arquitectura fácilmente escalable.
+- Utiliza TypeScript para una programación más segura y legible.
+- Integración con MySQL para almacenar y gestionar los datos de manera eficiente.
+- Código limpio y bien estructurado para facilitar el mantenimiento y la colaboración.
 
-```bash
-$ npm install
-```
+## Requisitos Previos
 
-## Running the app
+- Node.js y npm instalados.
+- MySQL instalado y configurado con las credenciales adecuadas.
 
-```bash
-# development
-$ npm run start
+## Instrucciones de Uso
 
-# watch mode
-$ npm run start:dev
+1. Clona este repositorio en tu máquina local.
+2. Instala las dependencias con `npm install`.
+3. Configura la conexión a la base de datos en el archivo de configuración.
+4. Ejecuta la aplicación con `npm run start`.
+5. Accede a la aplicación a través de tu navegador.
 
-# production mode
-$ npm run start:prod
-```
+
 
 ## Test
 
@@ -58,17 +60,8 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
+## Licencia
 
 Nest is [MIT licensed](LICENSE).
 # app-messages
